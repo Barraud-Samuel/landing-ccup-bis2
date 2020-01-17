@@ -1,0 +1,352 @@
+body {
+  background-image: url("../assets/bg-ccup.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  color: white;
+  overflow-x: hidden;
+}
+
+.first__section {
+  display: flex;
+  width: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.first__section-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: 50%;
+}
+
+.first__section-left--content1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 180px;
+  margin-left: 120px;
+}
+
+.first__section-left--icon__ccup {
+  width: 84px;
+  margin-right: 25px;
+}
+
+.first__section-left--content1--title {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.first__section-left--content1--title a{
+  color: white;
+  text-decoration: none;
+}
+
+.first__section-left--content1--paragraph {
+  color: #6b7ea1;
+  font-size: 15px;
+}
+
+.first__section-left--content2 {
+  display: flex;
+  flex-direction: column;
+  margin-right: 50px;
+  width: 55%;
+  margin-left: 120px;
+}
+
+.first__section-right {
+  height: 100vh;
+  width: 50vw;
+  background: url("../assets/concours-pronostics-entreprise-img-1.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.section__three {
+  width: 100%;
+}
+
+.first__section-left--content2--title {
+  font-size: 40px;
+  color: #d8d8d8;
+  margin-bottom: 20px;
+}
+
+.first__section-left--content2--UI {
+  display: flex;
+  justify-content: space-between;
+  width: 60px;
+}
+
+.first__section-left--content2--UI1 {
+  background-color: white;
+  width: 16px;
+  height: 10px;
+  border-radius: 50px;
+}
+.first__section-left--content2--UI2 {
+  background-color: #00c99c;
+  width: 35px;
+  height: 10px;
+  border-radius: 50px;
+}
+
+.first__section-left--content2--paragraph {
+  font-size: 20px;
+  margin: 20px 0 82px 0;
+  line-height: 1.5;
+}
+
+.button {
+  background: linear-gradient(
+    328deg,
+    rgba(0, 201, 156, 1) 41%,
+    rgba(2, 200, 200, 1) 72%
+  );
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 50px;
+  padding: 10px 0;
+  text-align: center;
+  font-weight: bold;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.first__section-left--content2--button {
+  width: 100%;
+}
+
+.section__text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 100px 0 100px 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.section__text__paragraph {
+  font-size: 20px;
+  line-height: 1.5;
+  display: block;
+  max-width: 1000px;
+  padding: 0 60px;
+  position: relative;
+}
+
+.ui__img {
+  position: absolute;
+  overflow: hidden;
+}
+
+.ui__football {
+
+  transform: translateX(-650px) translateY(-300px);
+}
+
+.ui__football-two {
+  transform: translateX(-650px) translateY(-600px);
+}
+
+.ui__football-three {
+  transform: translateX(700px) translateY(210px);
+}
+
+.ui__tennis {
+  transform: translateX(590px) translateY(150px);
+}
+
+.section__text--2 {
+  height: 130vh;
+}
+
+.section__five {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60vh;
+  width: 100%;
+  background-size: cover;
+  background-image: url("../assets/section5.jpg");
+  background-repeat: no-repeat;
+  border-top: 10px solid;
+}
+
+.content__section--five {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  position: absolute;
+}
+
+.section__five--text {
+  font-size: 54px;
+  width: 800px;
+  text-align: center;
+  margin-bottom: 60px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.section__five__button {
+  width: 20vw;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content_footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 15vh;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.icon_social {
+  width: 43px;
+}
+
+.text__footer {
+  margin-left: 50px;
+}
+
+.social__network {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 50px;
+  width: 250px;
+}
+
+@media (max-width: 1000px) {
+  .first__section {
+    flex-direction: column;
+  }
+
+  .first__section-left {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    margin-left: 0;
+  }
+
+  .first__section-left--content1--title {
+    margin: 0;
+  }
+
+  .first__section-left--content1--paragraph {
+    display: none;
+  }
+
+  .first__section-left--content2 {
+    margin: 0;
+    width: 95%;
+    align-items: center;
+    justify-content: space-between;
+    height: 380px;
+    margin-left: 0;
+  }
+
+  .button {
+    width: 50vw;
+  }
+
+  .first__section-left--icon__ccup {
+    width: 40px;
+    margin-right: 25px;
+  }
+
+  .first__section-left--content2--title {
+    text-align: center;
+    font-size: 29px;
+    margin: 0;
+  }
+
+  .first__section-left--content2--paragraph {
+    text-align: center;
+    margin: 0;
+  }
+
+  .first__section-right {
+    height: 515px;
+    width: 100%;
+  }
+
+  .first__section-left--content1 {
+    margin: 10px 0 80px 0;
+  }
+
+  .ui__img {
+    display: none;
+  }
+
+  .section__text {
+    margin: 0;
+    height: 100vh;
+  }
+
+  .section__text__paragraph {
+
+    width: 100%;
+    padding: 0;
+    margin: 0px 20px 0px 20px;
+  }
+
+  .section__three {
+    margin-top: 90px;
+    width: 100vw;
+  }
+
+  .section__five {
+    margin-top: 650px;
+    height: 30vh;
+    background-position: center center;
+  }
+
+  .section__five--text {
+    font-size: 23px;
+    width: 300px;
+  }
+
+  .text__footer {
+    display: none;
+  }
+
+  .social__network {
+    margin: 0;
+  }
+
+  .content_footer {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 1280px) {
+  .section__five{
+    margin-top: 150px;
+    padding: 40px 0 0 0;
+  }
+  .section__text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    margin: 100px 0 100px 0;
+  }
+ .content_footer{
+   margin-top: 10px;
+ }
+  .paragraph__two {
+    width: 515px;
+  }
+}
